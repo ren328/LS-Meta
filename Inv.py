@@ -22,14 +22,7 @@ snp="path"
 snp=np.array(snp)
 n=np.shape(snp)[0]
 p=np.shape(snp)[1]
-res=[]
-for j in range(p):
-  c=snp[:,j]
-  cp=np.matmul(c.T,c)
-  cp1=1/cp
-  res.append(cp1)
 
-res1=np.diag(res)
 if wls==True:
   beta=np.divide(beta,sd)
   cxt=np.divide(snp.T,sd).T
