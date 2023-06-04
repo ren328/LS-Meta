@@ -7,3 +7,6 @@ trait for the standardized version with ginv method. For the non-standardized ve
 
 ## Detecting non-linear associations between BMI and metabolites
 See Nonlinar.R
+
+## Gene-environment interaction analysis
+See Gbye.R
