@@ -10,3 +10,7 @@ See Nonlinar.R
 
 ## Gene-environment interaction analysis
 See Gbye.R
+
+## Trait-environmental variable association analysis
+See Tbye.R
+
